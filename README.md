@@ -38,6 +38,26 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Getting Started
 
+1. [Python 3.6](https://www.python.org/). It has to be 3.6 (3.5 or 3.7 won't work, because of PyTorch and Unity ML-Agents Toolkit).
+	- __Linux__ or __Mac__: 
+	```bash
+	conda create --name drlnd python=3.6
+	source activate drlnd
+	```
+	- __Windows__: 
+	```bash
+	conda create --name drlnd python=3.6 
+	activate drlnd
+	```
+2. [NumPy](http://www.numpy.org/)
+
+3. [Matplotlib](https://matplotlib.org/)
+
+4. [PyTorch](https://pytorch.org/)
+    ```bash
+    conda install pytorch torchvision -c pytorch
+    ```
+    
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
     - **_Version 2: Twenty (20) Agents_**
@@ -50,7 +70,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
-2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
+2. Place the file in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
 ### Instructions
 
